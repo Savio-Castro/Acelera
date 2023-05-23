@@ -1,7 +1,7 @@
 /* Configurações padrões */
 .conteudo {
     color: #777;
-    background-color: rgba(0, 255, 64, 0.413);
+    background-color: white;
     background-attachment: white;
     text-align: justify;
     padding: 50px 80px;
@@ -25,7 +25,7 @@ p {
 }
 
 /* Efeito Parallax */
-.caixa1, .caixa2 {
+.caixa1, .caixa2, .caixa3 {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +39,11 @@ p {
 }
 
 .caixa2 {
-    background-image: url(../imagem/mao2.jpg);
+    background-image: url(../imagem/tema2.jpg);
+}
+
+.caixa3{
+    background-image: url(../imagem/mao2.jpg) ;
 }
 
 .formulario {
@@ -49,5 +53,175 @@ p {
     transform: translate(-50%, -50%);
     width: 300px;
     text-align: center;
-    background-color: blue;
+    background-color: rgba(239, 255, 248, 0.077);
 }
+
+.formulario h3{
+    color: white;
+}
+
+/* Estilos para o input de email */
+.formulario input[type="email"] {
+    margin-left: 5px;
+    height: 25px;
+    width: 280px;
+    display: block;
+}
+
+/* Estilos para o input de senha */
+.formulario input[type="password"] {
+    margin-left: 5px;
+    height: 25px;
+    width: 280px;
+    display: block;
+}
+
+
+/* Estilos para o botão de submit */
+.formulario input[type="submit"] {
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    width: 130px; /* Largura do botão */
+    height: 30px; /* Altura do botão */
+    background-color: #fff; /* Cor de fundo */
+    border-radius: 10px;
+    font-family: "Lato", sans-serif; /* Fonte */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #111; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    transition: background-color 0.3s ease; /* Efeito de transição */
+}
+
+/* Efeito de hover no botão */
+.formulario input[type="submit"]:hover {
+    background-color: #007bff; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+
+.formulario label{
+    margin-right: 240px;
+}
+
+.formulario #senha {
+    margin-bottom: 30px;
+}
+
+/* Caixa 3 */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /********************************* Formatações Gerais **************************************/
+  body {
+    background-image: url(../img/mao2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #principal {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  
+  .container1 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    background-color: rgb(218, 213, 213);
+    margin-top: 100px;
+    margin-left: 75px;
+    display: inline-block;
+  }
+
+  .container1 p {
+    width: 180px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .container2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(218, 213, 213);
+    border-radius: 10px;
+    /* border: solid blue; */
+    margin-left: 310px;
+    margin-top: -200px; /* Adiciona a mesma margin-top do container1 */
+    margin-bottom: 22px;
+  }
+
+  .container2 p {
+    width: 180px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .container3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(218, 213, 213);
+    margin-left: 73px;
+  }
+
+  .container3 p {
+    width: 180px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  h1.titulo {
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+
+  #estiliza-container1,
+  #estiliza-container2,
+  #estiliza-container3{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(183, 179, 179);
+    background: #eeeeee;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+  }
+
+  #estiliza-container1:hover,
+  #estiliza-container2:hover,
+  #estiliza-container3:hover{
+    background: #ccc;
+  }
+ 
+  #estiliza-container1:hover img {
+    content: url('../imagem/dashboard2.png');
+  }
+
+  #estiliza-container2:hover img {
+    content: url('../imagem/json2.png');
+  }
+
+  #estiliza-container3:hover img {
+    content: url('../imagem/vaga2.png');
+  }
+  
+
+  
