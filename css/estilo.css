@@ -116,11 +116,6 @@ p {
   }
   
   /********************************* Formatações Gerais **************************************/
-  body {
-    background-image: url(../img/mao2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
 
   #principal {
     color: white;
@@ -132,12 +127,12 @@ p {
   
   .container1 {
     width: 200px;
-    height: 200px;
+    height: 250px;
     background-color: white;
     border-radius: 10px;
-    background-color: rgb(218, 213, 213);
-    margin-top: 100px;
-    margin-left: 75px;
+    background-color: rgba(218, 213, 213, 0.471);
+    margin-top: 200px;
+    margin-left: 80px;
     display: inline-block;
   }
 
@@ -150,13 +145,12 @@ p {
   
   .container2 {
     width: 200px;
-    height: 200px;
-    background-color: rgb(218, 213, 213);
+    height: 250px;
+    background-color: rgba(218, 213, 213, 0.471);
     border-radius: 10px;
-    /* border: solid blue; */
-    margin-left: 310px;
-    margin-top: -200px; /* Adiciona a mesma margin-top do container1 */
-    margin-bottom: 22px;
+    margin-left: 400px;
+    margin-top: -254px; /* Adiciona a mesma margin-top do container1 */
+    /* margin-bottom: 22px; */
   }
 
   .container2 p {
@@ -168,10 +162,11 @@ p {
   
   .container3 {
     width: 200px;
-    height: 200px;
+    height: 250px;
     border-radius: 10px;
-    background-color: rgb(218, 213, 213);
-    margin-left: 73px;
+    background-color: rgba(218, 213, 213, 0.471);
+    margin-top: -254px;
+    margin-left: 700px;
   }
 
   .container3 p {
@@ -202,6 +197,7 @@ p {
     justify-content: center;
     border-radius: 10px;
     margin-top: 15px;
+   
     
   }
 
@@ -213,15 +209,85 @@ p {
  
   #estiliza-container1:hover img {
     content: url('../imagem/dashboard2.png');
+    cursor: pointer;
   }
 
   #estiliza-container2:hover img {
     content: url('../imagem/json2.png');
+    cursor: pointer;
   }
 
   #estiliza-container3:hover img {
     content: url('../imagem/vaga2.png');
+    cursor: pointer;
   }
-  
 
-  
+  /* Configurações básicas */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+} */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff0;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#login {
+  background-image: url('../imagem/Login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sobre {
+  background-image: url(../imagem/tema2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#servicos {
+  background-image: url(../imagem/mao2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
