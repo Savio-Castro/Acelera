@@ -317,3 +317,63 @@ section {
   transform: translateY(-50%);
   color: #999; /* Cor do ícone */
 }
+
+/*Carrossel*/
+
+
+section.carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#Carrossel {
+  box-shadow: 2px 2px 4px black;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 600px;
+  width: 600px;
+  background: linear-gradient(to bottom, blue, lightblue, white, #ccc);
+}
+
+.container-carrossel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+img.imagem-carrossel{
+  object-fit: scale-down;
+  height: 600px;
+  width: 600px;
+  border: solid white 1px;
+}
+
+#botao-direita {
+  background: #CCC;
+  font-size: 60px;
+  margin-left: 5px;
+  color: rgb(0, 132, 255);
+  border: solid 1px white;
+}
+
+
+#botao-esquerda {
+  background: #CCC;
+  font-size: 60px;
+  margin-right: 5px;
+  color: rgb(0, 132, 255);
+  border: solid 1px white;
+}
+
+h2.titulo-carrossel{
+  color: white;
+  margin-inline-start: 200px;
+}
+
+p.paragrafo-carrossel{
+  color: orange;
+}
+

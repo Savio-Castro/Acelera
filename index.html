@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="carrossel.js" defer></script>
     <title>Projeto Acelera</title>
 </head>
 <body>
@@ -72,8 +73,89 @@
         </div>
     </section>
 
-    <section id="sobre">
-        <div class="caixa2"></div>
+    <section  class="carrossel" id="sobre">
+        <div>
+            <button id="botao-esquerda" onclick="esquerda()"><</button>
+        </div> 
+        <div id="Carrossel">
+            <div class="container-carrossel" id="img" width="100%" height="100%" >
+            <div>
+                <h2 class="titulo-carrossel">Site de Noticias Cidade</h2>
+                <img class="imagem-carrossel" width="100%" height="100%" src="imagem/proje1.png" alt="Imagem1">
+                <p class="paragrafo-carrossel">Para este projeto, foram utilizadas a linguagem de marcação de texto HTML e o CSS para a estilização. O objetivo desse projeto era criar diversas colunas e, além disso, construir um menu horizontal.</p>
+            </div>
+    
+            <div>
+                <h2 class="titulo-carrossel">Chalé Hotel</h2>
+                <img class="imagem-carrossel" width="100%" height="100%" src="imagem/proje2.png" alt="Imagem2">
+                <p class="paragrafo-carrossel">Para este projeto, foram utilizadas a linguagem de marcação de texto HTML e o CSS para a estilização. O objetivo desse projeto era criar um site que seja responsivo</p>
+            </div>
+    
+            <div>
+                <h2 class="titulo-carrossel">Universidade UNES</h2>
+                <img class="imagem-carrossel" width="100%" height="100%" src="imagem/proje3.png" alt="Imagem3">
+                <p class="paragrafo-carrossel">Este projeto foi criado inteiramente usando HTML. O objetivo deste projeto era criar um site utilizando links, listas e títulos.</p>
+            </div>
+    
+            <div>
+                <h2 class="titulo-carrossel">Anna Bella</h2>
+                <img class="imagem-carrossel" width="100%" height="100%" src="imagem/proje4.png" alt="Imagem4">
+                <p class="paragrafo-carrossel">Para esse projeto, foi utilizada a linguagem de marcação de texto HTML e o CSS para estilização. O objetivo deste projeto foi adicionar imagens e fazer uma estilização simples. </p>
+            </div>
+    
+            <div>
+                <h2 class="titulo-carrossel">TecBlog</h2>
+                <img class="imagem-carrossel" width="100%" height="100%" src="imagem/proje5.png" alt="Imagem5">
+                <p class="paragrafo-carrossel">Para esse projeto, foram utilizadas as linguagens de marcação de texto HTML e CSS para estilização. O objetivo desse projeto era criar um menu interativo e de fácil utilização.</p>
+            </div>
+    
+            <div>
+                <h2 class="titulo-carrossel">Jogo de Escolha de Número</h2>
+                <img class="imagem-carrossel"width="100%" height="100%" src="imagem/proje6.png" alt="Imagem6">
+                <p class="paragrafo-carrossel">Este é um jogo simples de adivinhação criado usando HTML, CSS e JS. O jogador é desafiado a adivinhar um número entre 0 e 25. O jogo apresenta um formulário com um campo de entrada para o número e um botão para submeter a resposta. O jogador pode tentar várias vezes e o número de tentativas é exibido em uma seção de resultados. Além disso, há um botão "Jogar novamente" que permite ao jogador reiniciar o jogo.</p>
+            </div>
+    
+            <div>
+                <h2 class="titulo-carrossel">Login-Helper</h2>
+                <img class="imagem-carrossel" width="100%" height="100%" src="imagem/proje7.png" alt="Imagem7">
+                <p class="paragrafo-carrossel">Este é um formulário de login criado em HTML, CSS e JavaScript. Ele contém campos de entrada de email e senha. O campo de senha é ocultado por asteriscos por padrão, mas há um botão com um ícone de olho que permite a visualização da senha. Há também uma caixa de seleção para "Lembrar-me" e um link para "Esqueceu sua senha?". Existem três ícones para login com Google+, LinkedIn e Facebook. </p>
+            </div>
+            
+            <div>
+                <h2 class="titulo-carrossel">Efeito Parallax</h2>
+                <img class="imagem-carrossel" width="100%" height="100%" src="imagem/proje8.png" alt="Imagem8">
+                <p class="paragrafo-carrossel">Este projeto tem o objetivo de demonstrar o efeito parallax. O efeito parallax é um efeito visual em que as imagens de fundo se movem mais lentamente do que as imagens de primeiro plano, criando uma sensação de profundidade e imersão. </p>
+            </div>
+            
+            
+            <div>
+                <h2 class="titulo-carrossel">Fundação Bradesco</h2>
+                <img class="imagem-carrossel" width="100%" height="100%" src="imagem/proje9.png" alt="Imagem9">
+                <p class="paragrafo-carrossel">Este site foi criado para aplicar os conhecimentos adquiridos no curso da Fundação Bradesco utilizando HTML e CSS.</p>
+            </div>
+            
+            
+            <div>
+                <h2 class="titulo-carrossel">Star Wars World</h2>
+                <img class="imagem-carrossel" width="100%" height="100%" src="imagem/proje10.png" alt="Imagem10">
+                <p class="paragrafo-carrossel">Este projeto é uma página da web para um aplicativo do mundo de Star Wars. Ele contém estilos CSS e código JavaScript que exibem a seção principal da página, que possui cartões com contadores para o número de pessoas, naves estelares e planetas no universo de Star Wars.</p>
+            </div>
+
+            <div>
+                <h2 class="titulo-carrossel">Sávio video</h2>
+                <video class="video-carrossel" width="600px" height="600px%" controls>
+                    <source src="video/Sávio.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <p class="paragrafo-carrossel">Sua descrição</p>
+            </div>
+            
+            </div>
+        </div>
+    
+        <div>
+            <button id="botao-direita" onclick="direita()">></button>
+        </div>
     </section>
   
 </body>
