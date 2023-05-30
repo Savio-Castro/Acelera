@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Tela de Login</title>
+    <script>
+        function redirecionarParaServicos() {
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+<body>
+    <section id="login">
+        <div class="caixa1">
+            <div class="formulario">
+                <h1>LOGIN</h1>
+                <img src="imagem/usuario-masculino (1).png">
+                
+                <label for="email" class="email">Email:</label>
+                <div class="input-with-icon">
+                    <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" required>
+                    <i class="icon fa fa-envelope"></i>
+                  </div>
+
+                <label for="senha">Senha:</label>
+                <div class="input-with-icon">
+                    <input type="password" id="senha" name="senha" placeholder="********" required>
+                    <i class="icon fa fa-lock"></i>
+                  </div>
+                
+                <div class="botao">
+                    <input type="submit" value="Entrar" onclick="redirecionarParaServicos()">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

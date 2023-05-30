@@ -294,6 +294,12 @@ section {
   background-size: cover;
 }
 
+#projeto {
+  background-image: url(../imagem/Login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #servicos {
   background-image: url(../imagem/mao2.jpg);
   background-repeat: no-repeat;
