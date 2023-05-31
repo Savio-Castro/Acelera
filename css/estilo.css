@@ -188,7 +188,7 @@ p {
   }
   
   h1.titulo {
-    color: black;
+    color: white;
     font-size: 20px;
     align-items: center;
     font-family: 'Poppins', sans-serif;
@@ -196,8 +196,7 @@ p {
   }
 
   #estiliza-container1,
-  #estiliza-container2,
-  #estiliza-container3{
+  #estiliza-container2{
     width: 80px;
     height: 80px;
     border: 1px solid rgb(183, 179, 179);
@@ -209,7 +208,19 @@ p {
     border-radius: 10px;
     margin-top: 15px;
    
-    
+  } 
+
+  #estiliza-container3 {
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(183, 179, 179);
+    background: #eeeeee;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 15px;
   }
 
   #estiliza-container1:hover,
@@ -217,7 +228,7 @@ p {
   #estiliza-container3:hover{
     background: #ccc;
   }
- 
+  
   #estiliza-container1:hover img {
     content: url('../imagem/dashboard2.png');
     cursor: pointer;
@@ -228,21 +239,16 @@ p {
     cursor: pointer;
   }
 
-  #estiliza-container3:hover img {
+    #estiliza-container3:hover img {
     content: url('../imagem/vaga2.png');
     cursor: pointer;
-  }
+  } 
 
-  /* Configurações básicas */
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-} */
+  #estiliza-container3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } 
 
 nav {
   position: fixed;
@@ -385,3 +391,43 @@ p.paragrafo-carrossel{
   color: orange;
 }
 
+/* Vagas Link */
+* {
+  padding: 0;
+  margin: 0;
+}
+.estacionamento {
+  background-image: url(../imagem/tema3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quadrado {
+  width: 1326px;
+  height: 617px;
+  background-color: #ffffffa0; 
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente as vagas */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.vaga {
+  width: 300px;
+  height: 400px;
+  background-image: url(../imagem/ocupado.png);
+  background-repeat: no-repeat;
+  background-color: red;
+  background-position: center;
+  margin-right: 70px;
+  float: left;
+}
+
+.vaga:hover {
+  background-image: url(../imagem/livre.png);
+  background-repeat: no-repeat;
+  background-color: green;
+}
