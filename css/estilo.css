@@ -1,4 +1,10 @@
 /* Configurações padrões */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .conteudo {
     color: #777;
     background-color: white;
@@ -391,10 +397,6 @@ p.paragrafo-carrossel{
 }
 
 /* Vagas Link */
-* {
-  padding: 0;
-  margin: 0;
-}
 .estacionamento {
   background-image: url(../imagem/tema3.jpg);
   background-repeat: no-repeat;
@@ -421,12 +423,23 @@ p.paragrafo-carrossel{
   background-repeat: no-repeat;
   background-color: green;
   background-position: center;
-  margin-right: 70px;
+  margin-right: 100px;
   float: left;
 }
+
 
 .vaga:hover {
   background-image: url(../imagem/ocupado.png);
   background-repeat: no-repeat;
   background-color: red;
+}
+
+#retorno img{
+  margin-bottom: 550px;
+  margin-right: 150px;
+}
+
+#retorno:hover img {
+  content: url('../imagem/de-volta2.png');
+  cursor: pointer;
 }
