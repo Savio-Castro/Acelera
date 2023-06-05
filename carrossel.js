@@ -32,3 +32,6 @@ function esquerda() {
 
   imgs.style.transform = `translateX(${imagem_atual * -tamanho_imagem}px)`;
 }
+
+
+
