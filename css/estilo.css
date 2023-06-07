@@ -234,7 +234,9 @@ p {
     background: #ccc;
   }
 
-  #estiliza-container1 img {
+  #estiliza-container1 img ,
+  #estiliza-container2 img ,
+  #estiliza-container3 img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -434,12 +436,35 @@ p.paragrafo-carrossel{
   background-color: red;
 }
 
+/********************************** Botão de Retorno***************************************************/
+#retorno-json img{
+  margin-bottom: 550px;
+  margin-left: 1075px;
+  border: blue;
+  display: block;
+}
+
+#retorno-json:hover img {
+  content: url('../imagem/de-volta2.png');
+  cursor: pointer;
+}
+
 #retorno img{
   margin-bottom: 550px;
   margin-right: 150px;
 }
 
 #retorno:hover img {
+  content: url('../imagem/de-volta2.png');
+  cursor: pointer;
+}
+
+#retorno-dashboard img{
+  margin-bottom: 550px;
+  margin-right: 1260px;
+}
+
+#retorno-dashboard:hover img {
   content: url('../imagem/de-volta2.png');
   cursor: pointer;
 }
@@ -458,4 +483,18 @@ p.paragrafo-carrossel{
   background-color: #ffffffa0;
 }
 
+/*************************************** Tabela **********************************************/
+table{
+  width: 300px;
+  height: 40px;
+  margin-right: 1840px;
+  margin-bottom: 400px;
+  border-collapse: separate;
+  letter-spacing: 0.3em;
+  background: white;
+}
 
+th{
+  background: blue;
+  color: white;
+}
