@@ -256,7 +256,8 @@ p {
     content: url('../imagem/json2.png');
     cursor: pointer;
   } 
-
+/******************************************************* Menu *********************************************************/
+  
 nav {
   position: fixed;
   top: 0;
@@ -264,13 +265,14 @@ nav {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
+  font-size: 20px;
 }
 
 nav ul {
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  padding: 10px;
+  padding: 20px;
 }
 
 nav ul li {
@@ -285,8 +287,9 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #ff0;
+  border-bottom: 1px solid #ff0;
 }
-
+ 
 section {
   height: 100vh;
   display: flex;
@@ -321,7 +324,7 @@ section {
   background-attachment: fixed;
 }
 
-/* Icones */
+/******************************************************* Icones *********************************************************/
 
 .input-with-icon {
   position: relative;
@@ -339,7 +342,7 @@ section {
   color: #999; /* Cor do ícone */
 }
 
-/*Carrossel*/
+/***********************************************************Carrossel***************************************************/
 
 
 section.carrossel {
@@ -354,9 +357,9 @@ section.carrossel {
   box-shadow: 2px 2px 4px black;
   overflow-x: hidden;
   overflow-y: auto;
-  height: 600px;
+  height: 400px;
   width: 600px;
-  background: linear-gradient(to bottom, blue, lightblue, white, #ccc);
+  background-color: rgba(224, 208, 208, 0.089);
 }
 
 .container-carrossel {
@@ -369,7 +372,6 @@ img.imagem-carrossel{
   object-fit: scale-down;
   height: 600px;
   width: 600px;
-  border: solid white 1px;
 }
 
 #botao-direita {
@@ -395,7 +397,7 @@ h2.titulo-carrossel{
 }
 
 p.paragrafo-carrossel{
-  color: orange;
+  color: white;
 }
 
 /* Vagas Link */
@@ -498,3 +500,4 @@ th{
   background: blue;
   color: white;
 }
+
